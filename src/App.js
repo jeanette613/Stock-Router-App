@@ -1,6 +1,6 @@
 import "./style.css";
 import { Route, Routes } from "react-router-dom";
-import Main from "./components/Main"
+import Main from "./pages/Main"
 import About from "./pages/about";
 import Stock from "./pages/stock";
 import Dashboard from "./pages/dashboard";
