@@ -17,7 +17,7 @@ export default function Stock() {
 
     return (
         <div className="stocks">
-            <h1>Work damnit</h1>
+            <h1>Stocks List</h1>
             <h2>{stock.name}</h2>
         </div>
     );

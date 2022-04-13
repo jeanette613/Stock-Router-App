@@ -5,11 +5,14 @@ import Main from "./pages/Main"
 import About from "./pages/about";
 import Stock from "./pages/stock";
 import Dashboard from "./pages/dashboard";
-import { stocks } from "./data";
+import Nav from "./components/nav";
+import stocks from "./data";
 
 function App() {
     return (
+
         <div className="App">
+            <Nav></Nav>
             <Routes>
                 <Route path="/" element={<Main />} />
                 <Route path="/about" element={<About />} />
